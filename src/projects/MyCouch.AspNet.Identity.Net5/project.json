@@ -1,0 +1,27 @@
+﻿{
+    "version": "1.0.0-*",
+    "dependencies": {
+        "MyCouch": "3.1.0",
+        "Newtonsoft.Json": "6.0.8",
+        "Rx-Core": "2.2.5",
+        "Rx-Interfaces": "2.2.5",
+        "Rx-Linq": "2.2.5",
+        "Rx-PlatformServices": "2.2.5",
+        "Ensure.That": "2.0.0",
+        "Microsoft.AspNet.Identity": "3.0.0-beta3"
+    },
+    "frameworks": {
+        "aspnet50": {
+            "dependencies": {
+                "System.Runtime": "4.0.20-beta-22523",
+                "Microsoft.AspNet.Identity": "3.0.0-beta3",
+                "System.Runtime.Serialization.Primitives": "4.0.0-beta-22605",
+                "System.Runtime.Serialization.Xml": "4.0.10-beta-22605",
+                "System.Runtime.Serialization.Json": "4.0.0-beta-22605"
+            },
+            "frameworkAssemblies": {
+                "System.Configuration": "4.0.0.0"
+            }
+        }        
+    }
+}
